@@ -7,8 +7,8 @@
 #include<ESP8266WiFi.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "nk8";
-char password[] = "10042002";
+char ssid[] = "Wifi";
+char password[] = "<WiFiPassword>";
 
 BLYNK_WRITE(V0){
   digitalWrite(D0, param.asInt());
